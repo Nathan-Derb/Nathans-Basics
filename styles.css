@@ -1,0 +1,72 @@
+/* ========== START of pre-made CSS ========== */
+/* ========= Do NOT alter this  CSS  ======== */
+article {
+  background-color: #023047;
+  color: #fff;
+  margin: 1rem;
+}
+
+h4 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+#poodle {
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#pit {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#belgian {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+#german {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+/* ========== END of pre-made CSS ========== */
+#hound,
+#doberman {
+  padding: 1rem;
+}
+#poodle {
+  padding-left: 1rem;
+}
+#pit {
+  padding-right: 1rem;
+}
+#belgian {
+  padding-top: 1rem;
+}
+#german {
+  padding-bottom: 1rem;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+article {
+  border-radius: 1rem;
+}
