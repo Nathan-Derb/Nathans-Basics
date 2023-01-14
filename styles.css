@@ -1,72 +1,63 @@
-/* ========== START of pre-made CSS ========== */
-/* ========= Do NOT alter this  CSS  ======== */
-article {
-  background-color: #023047;
-  color: #fff;
-  margin: 1rem;
+i {
+  font-size: 3rem;
+  cursor: pointer;
+}
+#buttons {
+  width: auto;
+  height: auto;
+  background: rgb(175, 222, 8);
+  animation: mymove 5s infinite;
 }
 
-h4 {
-  margin: 0;
-  margin-bottom: 1rem;
+@keyframes mymove {
+  from {
+    background-color: rgb(255, 17, 0);
+  }
+  to {
+    background-color: rgb(142, 209, 242);
+  }
 }
-
-p {
-  margin: 0;
+#facebook {
+  background: #3b5998;
+  color: white;
 }
-
-.row {
-  display: flex;
-  justify-content: space-evenly;
+#twitter {
+  background: #55acee;
+  color: white;
 }
-
-.m-1 {
-  margin: 1rem;
+#instagram {
+  background: #125688;
+  color: white;
 }
-
-#poodle {
-  padding-right: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+#tiktok {
+  color: #111111;
+  filter: drop-shadow(2px 0px 0px #fd3e3e) drop-shadow(-2px -2px 0px #4de8f4);
 }
-
-#pit {
-  padding-left: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+#weird-card {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #025fffdf;
+  box-decoration-break: slice;
+  box-shadow: 20px 20px 50px 10px grey;
 }
-
-#belgian {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+li:hover {
+  background-color: #8dc8fffc;
+  color: aliceblue;
 }
-
-#german {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 1rem;
+li {
+  list-style-image: linear-gradient(
+    to left bottom,
+    rgb(226, 163, 15),
+    rgb(153, 0, 0)
+  );
 }
-/* ========== END of pre-made CSS ========== */
-#hound,
-#doberman {
-  padding: 1rem;
+h2 {
+  font-family: "Gill Sans", sans-serif;
 }
-#poodle {
-  padding-left: 1rem;
-}
-#pit {
-  padding-right: 1rem;
-}
-#belgian {
-  padding-top: 1rem;
-}
-#german {
-  padding-bottom: 1rem;
-}
-body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-article {
-  border-radius: 1rem;
+hr {
+  color: #000;
+  padding: 0.5rem;
+  background-color: rgb(224, 231, 251);
+  border-color: transparent;
+  margin-top: 5rem;
 }
