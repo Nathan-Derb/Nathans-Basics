@@ -1,64 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script
-      src="https://kit.fontawesome.com/ce529600e0.js"
-      crossorigin="anonymous"
-    ></script>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="provided_styles.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Selection City</title>
-  </head>
 
-  <body>
-    <main class="main">
-      <section class="purp row">
-        <!-- button cluster -->
-        <span id="buttons">
-          <button
-            id="facebook"
-            onclick="window.location.href='https://www.facebook.com/';"
-          >
-            <i class="fa-brands fa-facebook"></i>
-          </button>
-          <button
-            id="instagram"
-            onclick="window.location.href='https://www.instagram.com/';"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </button>
-          <button
-            id="tiktok"
-            onclick="window.location.href='https://www.tiktok.com/en/';"
-          >
-            <i class="fa-brands fa-tiktok"></i>
-          </button>
-          <button
-            id="twitter"
-            onclick="window.location.href='http://twitter.com/?lang=en/';"
-          >
-            <i class="fa-brands fa-twitter"></i>
-          </button>
-        </span>
-        <!-- weird card -->
-        <span id="weird-card">
-          <hr />
-        </span>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Yap Yap!</title>
+</head>
 
-        <!-- List -->
-        <ul>
-          <h3>Gaming List</h3>
-          <li>Mouse</li>
-          <li>Keyboard</li>
-          <li>Microphone</li>
-          <li>RGB Keys</li>
-        </ul>
+<body>
+  <h1>Yap Yap</h1>
+  <h4>Complain about... anything!</h4>
+  <!-- Main page wrapper -->
+  <div class="page-wrapper">
+    <div class="form-box">
+      <h3>Tell us what's on your mind.</h3>
+      <hr />
 
-        <h2>Sorgum Farming</h2>
-      </section>
-    </main>
-  </body>
+      <!-- Form row # 1 -->
+      <form>
+        <div class="d-flex">
+          <div class="f-1 d-flex fd-col">
+            <span>What day is it?</span>
+            <input class="round" type="date" />
+          </div>
+          <div class="f-1 d-flex fd-col">
+            <span>Complaint Category</span>
+            <select class="round">
+              <option value="work">Work</option>
+              <option value="personal">Personal</option>
+              <option value="health">Health</option>
+              <option value="spiritual">Spiritual</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Form row # 2 -->
+        <div class="d-flex">
+          <div class="f-1 d-flex fd-col">
+            <span>First Name:</span>
+            <input class="round" type="text" />
+          </div>
+          <div class="f-1 d-flex fd-col">
+            <span>Last Name:</span>
+            <input class="round" type="text" />
+          </div>
+        </div>
+
+        <div class="d-flex fd-col">
+          <span>Tell us what happened...</span>
+          <textarea class="round" cols="30" rows="10"></textarea>
+
+          <div class="d-flex">
+            <div class="f-1 d-flex fd-col">
+              <span>Email (optional)</span>
+              <input class="round" type="email" id="email" />
+
+              <span>Phone Number (optional)</span>
+              <input class="round" type="tel" id="tel" />
+
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
 </html>
+<source />

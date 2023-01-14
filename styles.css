@@ -1,63 +1,50 @@
-i {
-  font-size: 3rem;
-  cursor: pointer;
-}
-#buttons {
-  width: auto;
-  height: auto;
-  background: rgb(175, 222, 8);
-  animation: mymove 5s infinite;
+html {
+  font-size: 16px;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  background-color: #e0fbfc;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@keyframes mymove {
-  from {
-    background-color: rgb(255, 17, 0);
-  }
-  to {
-    background-color: rgb(142, 209, 242);
-  }
+/* Layout  */
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 3rem;
+  background-color: #3d5a80;
 }
-#facebook {
-  background: #3b5998;
-  color: white;
+
+.d-flex {
+  display: flex;
 }
-#twitter {
-  background: #55acee;
-  color: white;
+
+.fd-col {
+  flex-direction: column;
+  padding: 1rem;
 }
-#instagram {
-  background: #125688;
-  color: white;
+
+.f-1 {
+  flex: 1;
 }
-#tiktok {
-  color: #111111;
-  filter: drop-shadow(2px 0px 0px #fd3e3e) drop-shadow(-2px -2px 0px #4de8f4);
+
+.round {
+  border-radius: 1rem;
+  color: #ee6c4d;
+  padding: 0.75rem;
 }
-#weird-card {
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  background-color: #025fffdf;
-  box-decoration-break: slice;
-  box-shadow: 20px 20px 50px 10px grey;
+h3,
+label,
+span {
+  color: #ffff;
 }
-li:hover {
-  background-color: #8dc8fffc;
-  color: aliceblue;
+h1,
+h4 {
+  text-align: center;
+  columns: #293241;
 }
-li {
-  list-style-image: linear-gradient(
-    to left bottom,
-    rgb(226, 163, 15),
-    rgb(153, 0, 0)
-  );
-}
-h2 {
-  font-family: "Gill Sans", sans-serif;
-}
-hr {
-  color: #000;
-  padding: 0.5rem;
-  background-color: rgb(224, 231, 251);
-  border-color: transparent;
-  margin-top: 5rem;
+button {
+  border-radius: 1rem;
 }
