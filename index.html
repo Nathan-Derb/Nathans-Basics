@@ -1,74 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-  <title>Yap Yap!</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Loop City</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-  <h1>Yap Yap</h1>
-  <h4>Complain about... anything!</h4>
-  <!-- Main page wrapper -->
-  <div class="page-wrapper">
-    <div class="form-box">
-      <h3>Tell us what's on your mind.</h3>
-      <hr />
-
-      <!-- Form row # 1 -->
-      <form>
-        <div class="d-flex">
-          <div class="f-1 d-flex fd-col">
-            <span>What day is it?</span>
-            <input class="round" type="date" />
-          </div>
-          <div class="f-1 d-flex fd-col">
-            <span>Complaint Category</span>
-            <select class="round">
-              <option value="work">Work</option>
-              <option value="personal">Personal</option>
-              <option value="health">Health</option>
-              <option value="spiritual">Spiritual</option>
-            </select>
-          </div>
-        </div>
-
-        <!-- Form row # 2 -->
-        <div class="d-flex">
-          <div class="f-1 d-flex fd-col">
-            <span>First Name:</span>
-            <input class="round" type="text" />
-          </div>
-          <div class="f-1 d-flex fd-col">
-            <span>Last Name:</span>
-            <input class="round" type="text" />
-          </div>
-        </div>
-
-        <div class="d-flex fd-col">
-          <span>Tell us what happened...</span>
-          <textarea class="round" cols="30" rows="10"></textarea>
-
-          <div class="d-flex">
-            <div class="f-1 d-flex fd-col">
-              <span>Email (optional)</span>
-              <input class="round" type="email" id="email" />
-
-              <span>Phone Number (optional)</span>
-              <input class="round" type="tel" id="tel" />
-
-              <button type="submit">Submit</button>
-              <button type="reset">Reset</button>
-            </div>
-          </div>
-        </div>
-      </form>
+  <div id="container">
+    <h1 id="header">Welcome to Loop City!</h1>
+    <h3>Population: <span id="populationCount"></span></h3>
+    <hr>
+    <div id="citizenContainer">
+      <p>Citizens</p>
+      <!-- REMOVE IMAGE WHEN FIXED -->
+      <ol id="citizenList"></ol>
     </div>
+    <script src="index.js" async></script>
   </div>
 </body>
 
 </html>
-<source />
